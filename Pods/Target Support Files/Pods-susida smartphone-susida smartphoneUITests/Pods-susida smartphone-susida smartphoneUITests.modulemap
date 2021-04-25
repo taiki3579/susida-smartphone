@@ -1,0 +1,6 @@
+framework module Pods_susida_smartphone_susida_smartphoneUITests {
+  umbrella header "Pods-susida smartphone-susida smartphoneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

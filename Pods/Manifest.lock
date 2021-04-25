@@ -1,0 +1,16 @@
+PODS:
+  - AutoScrollLabel (0.4.3)
+
+DEPENDENCIES:
+  - AutoScrollLabel
+
+SPEC REPOS:
+  trunk:
+    - AutoScrollLabel
+
+SPEC CHECKSUMS:
+  AutoScrollLabel: bee53a1d4532569b49cbecaf9b80ca003bed3767
+
+PODFILE CHECKSUM: 5fe8fcc8f0f1ba85970feb96a84d784db4d4114a
+
+COCOAPODS: 1.8.4

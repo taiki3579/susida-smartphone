@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A943071F6DA4D96D10308AF6809C452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */; };
+		1150C0292C3CFAF5F8452F8480D65C0E /* Pods-susida smartphoneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A6184D5646FA820732AEC6B624074D /* Pods-susida smartphoneTests-dummy.m */; };
+		191609DAF15785FF7A743F8722067633 /* CBAutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1328B7632F666DC5B3809D5E4DEAF9 /* CBAutoScrollLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222D2A18BAD304177F11849A85B040D1 /* AutoScrollLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C10D5EE091067CD4F49716AFDD581A /* AutoScrollLabel-dummy.m */; };
+		30CEA6F3CCA7A159DAB7494A146D01FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6585216F2A60EAEE771F82156F550400 /* CoreGraphics.framework */; };
+		4DF7B6E40D02BE1A9C26765BC6A1B877 /* Pods-susida smartphone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8DC32963D371E104FE3051D1D6028 /* Pods-susida smartphone-dummy.m */; };
+		513773D73B69CE2B4DFFF0B8C5B7B928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */; };
+		6EC6C619911B48DBD8039002F4137F3F /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2720A83B42F0102C6FE05A49C3D029F8 /* CBAutoScrollLabel.m */; };
+		75D22324E626D3CD3D91F83C574B719D /* Pods-susida smartphone-susida smartphoneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6512BC8C86C1B01C2246E34A73ED9B52 /* Pods-susida smartphone-susida smartphoneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A084BF7C260BBCE27E72608B974D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */; };
+		83E934BF1B20CF723355AB4171F664D7 /* Pods-susida smartphone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB44B7EDD0F6DFD0BA9E75DA95C1C2E /* Pods-susida smartphone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E33F28849295E687098E58DCD7C3786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */; };
+		96A95ED9A4141304DDFA3A2E6EF80695 /* Pods-susida smartphoneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA28909B3DBB126B81C1169DF632DC9 /* Pods-susida smartphoneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9929CCA77BDBD997B3A5810E82B24998 /* Pods-susida smartphone-susida smartphoneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C54F2B8193B08C0DDC4300ACCD8AB95 /* Pods-susida smartphone-susida smartphoneUITests-dummy.m */; };
+		B8BA23E9C39005BC9CA9AD131BF209BA /* AutoScrollLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C6B9BD569F28F1278E4BF493FE2057 /* AutoScrollLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8BC793DA4F4F48BAE618F6FA3EEE454 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E46EED1A823BD0D57277AB9967D7653 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0534BB3D4B3CA5C2C409DA703B761050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23845CED2FAAD1202E3EB5199EEE500D;
+			remoteInfo = "Pods-susida smartphone";
+		};
+		AEA4E1A07BD3FE0EC7B715524DAB9E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD0BC0DA8E13EDB9358E0F3B2CE4742;
+			remoteInfo = AutoScrollLabel;
+		};
+		FD67AF04194F6039A8E2A7AA06817C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD0BC0DA8E13EDB9358E0F3B2CE4742;
+			remoteInfo = AutoScrollLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A6184D5646FA820732AEC6B624074D /* Pods-susida smartphoneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-susida smartphoneTests-dummy.m"; sourceTree = "<group>"; };
+		0A88E2174E3C4C44BF32A0F9B2A457DF /* Pods-susida smartphoneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-susida smartphoneTests.modulemap"; sourceTree = "<group>"; };
+		0DA5F2435493A528C54A1D5937B185BC /* Pods_susida_smartphone_susida_smartphoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_susida_smartphone_susida_smartphoneUITests.framework; path = "Pods-susida smartphone-susida smartphoneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDD89525A7B1EA4C2EE3C546E00290 /* Pods-susida smartphone-susida smartphoneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-susida smartphone-susida smartphoneUITests.modulemap"; sourceTree = "<group>"; };
+		10C6B9BD569F28F1278E4BF493FE2057 /* AutoScrollLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoScrollLabel-umbrella.h"; sourceTree = "<group>"; };
+		17E482F3ECCDA18A5D8C84A17A9BF335 /* Pods-susida smartphone-susida smartphoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphone-susida smartphoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A1328B7632F666DC5B3809D5E4DEAF9 /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAutoScrollLabel.h; path = CBAutoScrollLabel/CBAutoScrollLabel.h; sourceTree = "<group>"; };
+		1E878533675B1F2A6CE226E1729D526F /* Pods_susida_smartphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_susida_smartphone.framework; path = "Pods-susida smartphone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E3CEA619C60AE4523569D1722BB4A /* Pods-susida smartphone-susida smartphoneUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphone-susida smartphoneUITests-Info.plist"; sourceTree = "<group>"; };
+		2720A83B42F0102C6FE05A49C3D029F8 /* CBAutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBAutoScrollLabel.m; path = CBAutoScrollLabel/CBAutoScrollLabel.m; sourceTree = "<group>"; };
+		286E8E2D77E647D302029613170F6FB3 /* Pods-susida smartphoneTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphoneTests-Info.plist"; sourceTree = "<group>"; };
+		2C54F2B8193B08C0DDC4300ACCD8AB95 /* Pods-susida smartphone-susida smartphoneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-susida smartphone-susida smartphoneUITests-dummy.m"; sourceTree = "<group>"; };
+		2E963F7D7CF3864088C2152B0D0894F3 /* Pods-susida smartphoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1B7F97A5F4235381F3B1BBD6140C9D /* AutoScrollLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoScrollLabel.modulemap; sourceTree = "<group>"; };
+		432643728F162FEAC3D139DC9E22939B /* Pods-susida smartphone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-susida smartphone.modulemap"; sourceTree = "<group>"; };
+		44FB7479B1B0E15565EFEE92557AD92D /* Pods-susida smartphoneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-susida smartphoneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DC9BBE2B8B0A00A1C90EA54AEBEA29B /* AutoScrollLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoScrollLabel-Info.plist"; sourceTree = "<group>"; };
+		4E46EED1A823BD0D57277AB9967D7653 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		531A98730B27D74861F465C01D45298A /* Pods-susida smartphone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-susida smartphone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54C8175E2127A9F22906680A22CE0A0F /* Pods-susida smartphone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphone-Info.plist"; sourceTree = "<group>"; };
+		582FD583A3D7C0A3FD65345AA0A8A4E8 /* Pods-susida smartphone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphone-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EB44B7EDD0F6DFD0BA9E75DA95C1C2E /* Pods-susida smartphone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-susida smartphone-umbrella.h"; sourceTree = "<group>"; };
+		63A527735B9016593D5A70FBE5CDBA0B /* Pods-susida smartphoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		64E8DC32963D371E104FE3051D1D6028 /* Pods-susida smartphone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-susida smartphone-dummy.m"; sourceTree = "<group>"; };
+		6512BC8C86C1B01C2246E34A73ED9B52 /* Pods-susida smartphone-susida smartphoneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-susida smartphone-susida smartphoneUITests-umbrella.h"; sourceTree = "<group>"; };
+		6585216F2A60EAEE771F82156F550400 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		77C10D5EE091067CD4F49716AFDD581A /* AutoScrollLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoScrollLabel-dummy.m"; sourceTree = "<group>"; };
+		7B925872D8AFCC6063406FABCF4D454E /* Pods-susida smartphone-susida smartphoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphone-susida smartphoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		851A0A4EE95CD2B00455E8FB97D16105 /* Pods-susida smartphone-susida smartphoneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-susida smartphone-susida smartphoneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		89E70085B2D25579823598002C1E324C /* Pods-susida smartphone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-susida smartphone-frameworks.sh"; sourceTree = "<group>"; };
+		93D1AF9071C73DB623B932590C82B97F /* AutoScrollLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoScrollLabel.framework; path = AutoScrollLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9810ED0C89E444F979C1634615382FA8 /* Pods_susida_smartphoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_susida_smartphoneTests.framework; path = "Pods-susida smartphoneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8191C09ABB8EFFB7025FC4BC30CF5F /* Pods-susida smartphone-susida smartphoneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-susida smartphone-susida smartphoneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C68E4DBBB9CFBD9D42B5EA117B28FDB /* AutoScrollLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoScrollLabel.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDF31F1A0030B13E856ED2DCC1928F6 /* Pods-susida smartphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphone.debug.xcconfig"; sourceTree = "<group>"; };
+		A62615BF9932FD8EE8D48DDD75484CB6 /* AutoScrollLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoScrollLabel-prefix.pch"; sourceTree = "<group>"; };
+		AEA28909B3DBB126B81C1169DF632DC9 /* Pods-susida smartphoneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-susida smartphoneTests-umbrella.h"; sourceTree = "<group>"; };
+		B39EC1911E6158D5432C270B3757F9B5 /* Pods-susida smartphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-susida smartphone.release.xcconfig"; sourceTree = "<group>"; };
+		C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C98662D7D114D82FD674CB144FB6A059 /* Pods-susida smartphoneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphoneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE6CCC1E59D94E54D5B08C7EB96DE402 /* Pods-susida smartphone-susida smartphoneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-susida smartphone-susida smartphoneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8D7E8ED2F568A17B1B39E2A86509AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513773D73B69CE2B4DFFF0B8C5B7B928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA6973DB615680594D6D2C78A7313F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEA6F3CCA7A159DAB7494A146D01FD /* CoreGraphics.framework in Frameworks */,
+				8E33F28849295E687098E58DCD7C3786 /* Foundation.framework in Frameworks */,
+				B8BC793DA4F4F48BAE618F6FA3EEE454 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF34C781CB39BBACE9903EAA2A3ACA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A084BF7C260BBCE27E72608B974D2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FB32D344507E56B0D2BD54A6B2DA7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A943071F6DA4D96D10308AF6809C452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EC14D4CED380741E9AF2050EBC0ACA8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D858634A9110794164B303957D5EBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D1AF9071C73DB623B932590C82B97F /* AutoScrollLabel.framework */,
+				1E878533675B1F2A6CE226E1729D526F /* Pods_susida_smartphone.framework */,
+				0DA5F2435493A528C54A1D5937B185BC /* Pods_susida_smartphone_susida_smartphoneUITests.framework */,
+				9810ED0C89E444F979C1634615382FA8 /* Pods_susida_smartphoneTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB18ADC20E9F0BDC9EE2FCEE1D34D18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B7F97A5F4235381F3B1BBD6140C9D /* AutoScrollLabel.modulemap */,
+				9C68E4DBBB9CFBD9D42B5EA117B28FDB /* AutoScrollLabel.xcconfig */,
+				77C10D5EE091067CD4F49716AFDD581A /* AutoScrollLabel-dummy.m */,
+				4DC9BBE2B8B0A00A1C90EA54AEBEA29B /* AutoScrollLabel-Info.plist */,
+				A62615BF9932FD8EE8D48DDD75484CB6 /* AutoScrollLabel-prefix.pch */,
+				10C6B9BD569F28F1278E4BF493FE2057 /* AutoScrollLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AutoScrollLabel";
+			sourceTree = "<group>";
+		};
+		2796CF3C0348792C2770AD6815638D42 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				610B53012C20C73A3268768149242470 /* Pods-susida smartphone */,
+				8B7BA39B40E5F4B101B9709359DB0C4B /* Pods-susida smartphone-susida smartphoneUITests */,
+				9004FD558979C72618222472E6DEBDF7 /* Pods-susida smartphoneTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EC14D4CED380741E9AF2050EBC0ACA8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6585216F2A60EAEE771F82156F550400 /* CoreGraphics.framework */,
+				C037A51D6F42A2F820465742E7FEBA61 /* Foundation.framework */,
+				4E46EED1A823BD0D57277AB9967D7653 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		610B53012C20C73A3268768149242470 /* Pods-susida smartphone */ = {
+			isa = PBXGroup;
+			children = (
+				432643728F162FEAC3D139DC9E22939B /* Pods-susida smartphone.modulemap */,
+				531A98730B27D74861F465C01D45298A /* Pods-susida smartphone-acknowledgements.markdown */,
+				582FD583A3D7C0A3FD65345AA0A8A4E8 /* Pods-susida smartphone-acknowledgements.plist */,
+				64E8DC32963D371E104FE3051D1D6028 /* Pods-susida smartphone-dummy.m */,
+				89E70085B2D25579823598002C1E324C /* Pods-susida smartphone-frameworks.sh */,
+				54C8175E2127A9F22906680A22CE0A0F /* Pods-susida smartphone-Info.plist */,
+				5EB44B7EDD0F6DFD0BA9E75DA95C1C2E /* Pods-susida smartphone-umbrella.h */,
+				9DDF31F1A0030B13E856ED2DCC1928F6 /* Pods-susida smartphone.debug.xcconfig */,
+				B39EC1911E6158D5432C270B3757F9B5 /* Pods-susida smartphone.release.xcconfig */,
+			);
+			name = "Pods-susida smartphone";
+			path = "Target Support Files/Pods-susida smartphone";
+			sourceTree = "<group>";
+		};
+		8B7BA39B40E5F4B101B9709359DB0C4B /* Pods-susida smartphone-susida smartphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDD89525A7B1EA4C2EE3C546E00290 /* Pods-susida smartphone-susida smartphoneUITests.modulemap */,
+				9B8191C09ABB8EFFB7025FC4BC30CF5F /* Pods-susida smartphone-susida smartphoneUITests-acknowledgements.markdown */,
+				EE6CCC1E59D94E54D5B08C7EB96DE402 /* Pods-susida smartphone-susida smartphoneUITests-acknowledgements.plist */,
+				2C54F2B8193B08C0DDC4300ACCD8AB95 /* Pods-susida smartphone-susida smartphoneUITests-dummy.m */,
+				851A0A4EE95CD2B00455E8FB97D16105 /* Pods-susida smartphone-susida smartphoneUITests-frameworks.sh */,
+				214E3CEA619C60AE4523569D1722BB4A /* Pods-susida smartphone-susida smartphoneUITests-Info.plist */,
+				6512BC8C86C1B01C2246E34A73ED9B52 /* Pods-susida smartphone-susida smartphoneUITests-umbrella.h */,
+				7B925872D8AFCC6063406FABCF4D454E /* Pods-susida smartphone-susida smartphoneUITests.debug.xcconfig */,
+				17E482F3ECCDA18A5D8C84A17A9BF335 /* Pods-susida smartphone-susida smartphoneUITests.release.xcconfig */,
+			);
+			name = "Pods-susida smartphone-susida smartphoneUITests";
+			path = "Target Support Files/Pods-susida smartphone-susida smartphoneUITests";
+			sourceTree = "<group>";
+		};
+		9004FD558979C72618222472E6DEBDF7 /* Pods-susida smartphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A88E2174E3C4C44BF32A0F9B2A457DF /* Pods-susida smartphoneTests.modulemap */,
+				44FB7479B1B0E15565EFEE92557AD92D /* Pods-susida smartphoneTests-acknowledgements.markdown */,
+				C98662D7D114D82FD674CB144FB6A059 /* Pods-susida smartphoneTests-acknowledgements.plist */,
+				02A6184D5646FA820732AEC6B624074D /* Pods-susida smartphoneTests-dummy.m */,
+				286E8E2D77E647D302029613170F6FB3 /* Pods-susida smartphoneTests-Info.plist */,
+				AEA28909B3DBB126B81C1169DF632DC9 /* Pods-susida smartphoneTests-umbrella.h */,
+				2E963F7D7CF3864088C2152B0D0894F3 /* Pods-susida smartphoneTests.debug.xcconfig */,
+				63A527735B9016593D5A70FBE5CDBA0B /* Pods-susida smartphoneTests.release.xcconfig */,
+			);
+			name = "Pods-susida smartphoneTests";
+			path = "Target Support Files/Pods-susida smartphoneTests";
+			sourceTree = "<group>";
+		};
+		B96D1DD8B813E9F1B9B1C2399311D31F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D252DB4A88AA64F606B63E39B8EBC2 /* AutoScrollLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8D252DB4A88AA64F606B63E39B8EBC2 /* AutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1A1328B7632F666DC5B3809D5E4DEAF9 /* CBAutoScrollLabel.h */,
+				2720A83B42F0102C6FE05A49C3D029F8 /* CBAutoScrollLabel.m */,
+				1AB18ADC20E9F0BDC9EE2FCEE1D34D18 /* Support Files */,
+			);
+			name = AutoScrollLabel;
+			path = AutoScrollLabel;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				B96D1DD8B813E9F1B9B1C2399311D31F /* Pods */,
+				0D858634A9110794164B303957D5EBD6 /* Products */,
+				2796CF3C0348792C2770AD6815638D42 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BD3C70D16C2D94AFE9FF13C90E6D9AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A95ED9A4141304DDFA3A2E6EF80695 /* Pods-susida smartphoneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83609870ACF9B344DCA26894DDA3193 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BA23E9C39005BC9CA9AD131BF209BA /* AutoScrollLabel-umbrella.h in Headers */,
+				191609DAF15785FF7A743F8722067633 /* CBAutoScrollLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD75F1370EE89A0340A4AF585AE883 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E934BF1B20CF723355AB4171F664D7 /* Pods-susida smartphone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2213B0BFDD26FB586B9DA1DB383B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D22324E626D3CD3D91F83C574B719D /* Pods-susida smartphone-susida smartphoneUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23845CED2FAAD1202E3EB5199EEE500D /* Pods-susida smartphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE19669B5970EC0C627E289BCC71D2D /* Build configuration list for PBXNativeTarget "Pods-susida smartphone" */;
+			buildPhases = (
+				C6AD75F1370EE89A0340A4AF585AE883 /* Headers */,
+				481A23DCE5A65897F6A08DEEE8C51BB0 /* Sources */,
+				AF34C781CB39BBACE9903EAA2A3ACA38 /* Frameworks */,
+				8B3E92F07C892636E710E832310FF51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C297F98A19BEB5BBAF57CB85186D1589 /* PBXTargetDependency */,
+			);
+			name = "Pods-susida smartphone";
+			productName = "Pods-susida smartphone";
+			productReference = 1E878533675B1F2A6CE226E1729D526F /* Pods_susida_smartphone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53E4DE8A38D337D6457F01BE042EF712 /* Pods-susida smartphone-susida smartphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080EB268BD5B335F472D1F8EA8C742C7 /* Build configuration list for PBXNativeTarget "Pods-susida smartphone-susida smartphoneUITests" */;
+			buildPhases = (
+				CCA2213B0BFDD26FB586B9DA1DB383B1 /* Headers */,
+				83A33C901F05C4AAAED5F9564183E3BF /* Sources */,
+				4E8D7E8ED2F568A17B1B39E2A86509AD /* Frameworks */,
+				36F8CFAB001EC0CBB2E049323786B0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120C5B68EEB3658B45E0506AC332A0D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-susida smartphone-susida smartphoneUITests";
+			productName = "Pods-susida smartphone-susida smartphoneUITests";
+			productReference = 0DA5F2435493A528C54A1D5937B185BC /* Pods_susida_smartphone_susida_smartphoneUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FD0BC0DA8E13EDB9358E0F3B2CE4742 /* AutoScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF229F31C35B6BC9D7C310A427CBCCB9 /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */;
+			buildPhases = (
+				B83609870ACF9B344DCA26894DDA3193 /* Headers */,
+				A0A365383190145D6A4D247E042A64C8 /* Sources */,
+				5FA6973DB615680594D6D2C78A7313F6 /* Frameworks */,
+				2E67AA04C25AA40420855AF9500DA588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoScrollLabel;
+			productName = AutoScrollLabel;
+			productReference = 93D1AF9071C73DB623B932590C82B97F /* AutoScrollLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F14714A32DA8BFBC48EC76F67793B625 /* Pods-susida smartphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB7331B302A9E590341ACA97F5C70DB /* Build configuration list for PBXNativeTarget "Pods-susida smartphoneTests" */;
+			buildPhases = (
+				0BD3C70D16C2D94AFE9FF13C90E6D9AA /* Headers */,
+				C0F47BA7B55B476691AF5FE0CE826E66 /* Sources */,
+				D2FB32D344507E56B0D2BD54A6B2DA7D /* Frameworks */,
+				76963E19516D93F221A73723C436F4A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC7E4DDC66ABFCFA16E36EAA0C59C86 /* PBXTargetDependency */,
+			);
+			name = "Pods-susida smartphoneTests";
+			productName = "Pods-susida smartphoneTests";
+			productReference = 9810ED0C89E444F979C1634615382FA8 /* Pods_susida_smartphoneTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0D858634A9110794164B303957D5EBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD0BC0DA8E13EDB9358E0F3B2CE4742 /* AutoScrollLabel */,
+				23845CED2FAAD1202E3EB5199EEE500D /* Pods-susida smartphone */,
+				53E4DE8A38D337D6457F01BE042EF712 /* Pods-susida smartphone-susida smartphoneUITests */,
+				F14714A32DA8BFBC48EC76F67793B625 /* Pods-susida smartphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E67AA04C25AA40420855AF9500DA588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F8CFAB001EC0CBB2E049323786B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76963E19516D93F221A73723C436F4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3E92F07C892636E710E832310FF51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481A23DCE5A65897F6A08DEEE8C51BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF7B6E40D02BE1A9C26765BC6A1B877 /* Pods-susida smartphone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A33C901F05C4AAAED5F9564183E3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9929CCA77BDBD997B3A5810E82B24998 /* Pods-susida smartphone-susida smartphoneUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A365383190145D6A4D247E042A64C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222D2A18BAD304177F11849A85B040D1 /* AutoScrollLabel-dummy.m in Sources */,
+				6EC6C619911B48DBD8039002F4137F3F /* CBAutoScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F47BA7B55B476691AF5FE0CE826E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1150C0292C3CFAF5F8452F8480D65C0E /* Pods-susida smartphoneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		120C5B68EEB3658B45E0506AC332A0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoScrollLabel;
+			target = 6FD0BC0DA8E13EDB9358E0F3B2CE4742 /* AutoScrollLabel */;
+			targetProxy = FD67AF04194F6039A8E2A7AA06817C25 /* PBXContainerItemProxy */;
+		};
+		C297F98A19BEB5BBAF57CB85186D1589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoScrollLabel;
+			target = 6FD0BC0DA8E13EDB9358E0F3B2CE4742 /* AutoScrollLabel */;
+			targetProxy = AEA4E1A07BD3FE0EC7B715524DAB9E7A /* PBXContainerItemProxy */;
+		};
+		EEC7E4DDC66ABFCFA16E36EAA0C59C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-susida smartphone";
+			target = 23845CED2FAAD1202E3EB5199EEE500D /* Pods-susida smartphone */;
+			targetProxy = 0534BB3D4B3CA5C2C409DA703B761050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F8103552947BE43E034408153DC6796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39EC1911E6158D5432C270B3757F9B5 /* Pods-susida smartphone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphone/Pods-susida smartphone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphone/Pods-susida smartphone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		40CC51AE921FFDF2D835A1DFEE9905F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E963F7D7CF3864088C2152B0D0894F3 /* Pods-susida smartphoneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphoneTests/Pods-susida smartphoneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphoneTests/Pods-susida smartphoneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47DB114B7728386185048EFE72F47560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDF31F1A0030B13E856ED2DCC1928F6 /* Pods-susida smartphone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphone/Pods-susida smartphone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphone/Pods-susida smartphone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5482D175881EAA6C9DDC77DDCF7A663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E482F3ECCDA18A5D8C84A17A9BF335 /* Pods-susida smartphone-susida smartphoneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphone-susida smartphoneUITests/Pods-susida smartphone-susida smartphoneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphone-susida smartphoneUITests/Pods-susida smartphone-susida smartphoneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91F56B64BF4907441C025FE43652EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C68E4DBBB9CFBD9D42B5EA117B28FDB /* AutoScrollLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoScrollLabel/AutoScrollLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoScrollLabel/AutoScrollLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoScrollLabel/AutoScrollLabel.modulemap";
+				PRODUCT_MODULE_NAME = AutoScrollLabel;
+				PRODUCT_NAME = AutoScrollLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AA0143D2CB14DC7D49B71B10FFF6732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A527735B9016593D5A70FBE5CDBA0B /* Pods-susida smartphoneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphoneTests/Pods-susida smartphoneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphoneTests/Pods-susida smartphoneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD404F243C7C9755FAF0ECF9EB1C3A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C68E4DBBB9CFBD9D42B5EA117B28FDB /* AutoScrollLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoScrollLabel/AutoScrollLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoScrollLabel/AutoScrollLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoScrollLabel/AutoScrollLabel.modulemap";
+				PRODUCT_MODULE_NAME = AutoScrollLabel;
+				PRODUCT_NAME = AutoScrollLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF408288DC14A4A01DBAE71DEF34EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B925872D8AFCC6063406FABCF4D454E /* Pods-susida smartphone-susida smartphoneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-susida smartphone-susida smartphoneUITests/Pods-susida smartphone-susida smartphoneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-susida smartphone-susida smartphoneUITests/Pods-susida smartphone-susida smartphoneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080EB268BD5B335F472D1F8EA8C742C7 /* Build configuration list for PBXNativeTarget "Pods-susida smartphone-susida smartphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF408288DC14A4A01DBAE71DEF34EB85 /* Debug */,
+				5482D175881EAA6C9DDC77DDCF7A663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB7331B302A9E590341ACA97F5C70DB /* Build configuration list for PBXNativeTarget "Pods-susida smartphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CC51AE921FFDF2D835A1DFEE9905F2 /* Debug */,
+				9AA0143D2CB14DC7D49B71B10FFF6732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE19669B5970EC0C627E289BCC71D2D /* Build configuration list for PBXNativeTarget "Pods-susida smartphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DB114B7728386185048EFE72F47560 /* Debug */,
+				0F8103552947BE43E034408153DC6796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF229F31C35B6BC9D7C310A427CBCCB9 /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F56B64BF4907441C025FE43652EB74 /* Debug */,
+				BD404F243C7C9755FAF0ECF9EB1C3A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
